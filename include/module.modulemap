@@ -1,0 +1,8 @@
+// Exposes libregret to the Swift app as `import RegretKit`.
+//
+// The name differs from the library ("regret") because a Swift module and a
+// linked target cannot share a name, and because `Regret` is the app itself.
+module RegretKit {
+    umbrella header "regret.h"
+    export *
+}

@@ -1,3 +1,9 @@
 .zig-cache/
 zig-out/
 *.o
+
+# Xcode
+app/RegretKit.xcframework/
+xcuserdata/
+*.xcworkspace/xcshareddata/swiftpm/
+DerivedData/
